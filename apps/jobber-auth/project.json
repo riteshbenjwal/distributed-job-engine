@@ -31,15 +31,14 @@
     "generate-prisma": {
       "command": "prisma generate",
       "options": {
-        "cwd": "{projectRoot}",
+        "cwd": "apps/jobber-auth",
         "input": ["prisma/schema.prisma"]
-      },
-      "cache": true
+      }
     },
     "migrate-prisma": {
       "command": "prisma migrate dev",
       "options": {
-        "cwd": "{projectRoot}"
+        "cwd": "apps/jobber-auth"
       }
     },
     "generate-ts-proto": {
